@@ -1,0 +1,118 @@
+/*header*/
+body{
+    font-family: 'Merriweather', serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.titulo_principal{
+    background-color: rgb(10, 126, 23);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-style: italic;
+}
+
+.navegacion_inicial{
+        background-color:none;
+        margin-top: -17px;
+        font-size: 20px;
+        font-style: italic;
+        text-align: center;
+        vertical-align: middle;
+        background-color: none;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+        display: flex;
+        justify-content: space-around;
+}
+    
+nav {
+        display: flex;
+        justify-content: right;
+        padding: auto;
+}
+    
+a{
+    text-decoration: none;
+    margin-left: 25px;
+     color: rgb(0, 0, 0);
+     -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+a:hover{
+    color: rgba(255, 5, 5, 0.727);
+}
+
+.general{
+    background-image: url(img/fondo\ de\ registro.jpg);
+    width: 100%;
+    height: 100 vh;
+    background-size:cover;
+    background-position: center;
+    margin-top: -15px;
+}
+
+/*estructura del registro*/
+
+h2{
+    margin-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    width: 700px;
+    margin-left: 290px;
+ }
+
+ .registro{
+     margin-top: -20px;
+     margin-left: 290px;
+     margin-right: 290px;
+     background-color: rgba(237, 234, 234, 0.885);
+     width: 685px;
+     padding-left: 13px;
+     border: black 1px solid;
+     display: flex;
+     justify-content: space-around;
+ }
+
+.imagen_registro{
+    margin-top: 10px;
+    margin-left: 20px;
+    border: none solid;
+    height: 300px;
+}
+
+.boton_registro{
+    margin-left: 290px;
+}
+
+ /*pie de pagina*/
+footer {
+    background-color: black;
+    margin-top: 0px;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    height: auto;
+    text-align: center;
+    }
+/*medio de contacto*/
+.contactos{
+    margin-top: 30px;
+    justify-content: space-around; 
+}
+    .botones_facebook{
+    margin-right: 20px;
+    }
+    .botones_telefono{
+    margin-left: 37px;
+    }
+
+
+
+
+
+
+
+
+

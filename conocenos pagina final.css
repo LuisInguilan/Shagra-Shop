@@ -1,0 +1,105 @@
+/*header*/
+body{
+    font-family: 'Merriweather', serif;
+    background-color: rgb(255, 247, 247);
+}
+
+.titulo_principal{
+    background-color: rgb(10, 126, 23);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-style: italic;
+}
+
+.navegacion_inicial{
+        background-color:none;
+        margin-top: -17px;
+        font-style: italic;
+        font-size: 20px;
+        text-align: center;
+        vertical-align: middle;
+        background-color: none;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+        display: flex;
+        justify-content: space-around;
+}
+    
+nav {
+        display: flex;
+        justify-content: right;
+        padding: auto;
+}
+    
+a{
+    text-decoration: none;
+    margin-left: 25px;
+    color: rgb(0, 0, 0);
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+a:hover{
+    color: rgba(255, 5, 5, 0.727);
+}
+
+/*contenido de conocenos*/
+
+.subtitulo_somos{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+    p.somos{
+     text-align: left;
+     margin-right: 70px;
+     margin-left: 70px;
+    }
+
+
+.subtitulo_funcion{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+    p.funcion{
+         text-align: left;
+         margin-right: 70px;
+         margin-left: 70px;
+   }
+
+
+.subtitulo_objetivo{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+    p.objetivo{
+        text-align: left;
+         margin-right: 600px;
+         margin-left: 70px;
+   }
+
+
+/*pie de pagina*/
+footer {
+    background-color: black;
+    margin-top: 25px;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    height: auto;
+    text-align: center;
+    }
+
+/*medio de contacto*/
+.contactos{
+    margin-top: 30px;
+    justify-content: space-around; 
+}
+    .botones_facebook{
+    margin-right: 20px;
+    }
+    .botones_telefono{
+    margin-left: 37px;
+    }
+
